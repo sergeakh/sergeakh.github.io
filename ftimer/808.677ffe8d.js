@@ -1,1 +1,0 @@
-(()=>{"use strict";onmessage=({data:e})=>{if(0===e.event){const t=setTimeout((()=>{postMessage({event:1,timerId:t})}),e.timeout),s={event:0,timerId:t,initId:e.initId};postMessage(s)}else 1===e.event&&clearTimeout(e.timerId)}})();

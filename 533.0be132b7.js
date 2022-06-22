@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebauthn=self.webpackChunkwebauthn||[]).push([[533],{533:(e,t,a)=>{a.r(t),a.d(t,{labels:()=>s});const s={0:"Create",1:"Get",2:"Exit",3:"Main",4:"Settings",5:"Color scheme",6:"Light scheme",7:"Dark scheme",7:"Dark scheme",8:"Auto scheme",9:"Type of authenticators",10:"Language",11:"Notifications",12:"Get Notification"}}}]);
