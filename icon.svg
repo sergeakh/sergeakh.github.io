@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 135.467 135.467" xmlns="http://www.w3.org/2000/svg">
+<style>
+    @media (prefers-color-scheme: dark) {
+     .a { fill: #ddd }
+    }
+</style>
+<rect class="a" style="fill:#555;stroke-width:.275875" width="16.933" height="101.6" x="38.1" y="16.933" rx="8.467" ry="8.467"/>
+<rect class="a" style="fill:#555;stroke-width:.275875" width="16.933" height="101.6" x="80.433" y="16.933" rx="8.467" ry="8.467"/>
+<rect class="a" style="fill:#555;stroke-width:.275875" width="16.933" height="101.6" x="-97.367" y="16.933" transform="rotate(-90)" rx="8.467" ry="8.467"/>
+<rect class="a" style="fill:#555;stroke-width:.275875" width="16.933" height="101.6" x="38.1" y="-118.533" transform="rotate(90)" rx="8.467" ry="8.467"/>
+</svg>
