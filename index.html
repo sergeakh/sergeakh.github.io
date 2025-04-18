@@ -15,8 +15,17 @@
 			content="A simple web app to manage bookmarks with tags."
 		/>
 		<title>TagBookmarks</title>
-		<script type="module" crossorigin src="/assets/index-1jTgNyKe.js"></script>
-		<link rel="stylesheet" crossorigin href="/assets/index-BUXDCeOV.css">
+		<script>
+			(function () {
+				let colorScheme = localStorage.getItem('colorScheme');
+				if (colorScheme !== 'dark' && colorScheme !== 'light') {
+					colorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+				}
+				document.documentElement.setAttribute('data-color-scheme', colorScheme);
+			})();
+		</script>
+		<script type="module" crossorigin src="/assets/index-BGvlxNOb.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index-Bt4mCxSI.css">
 	<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 	<body>
 		<div id="app"></div>
