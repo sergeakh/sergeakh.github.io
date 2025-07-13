@@ -2,31 +2,27 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" href="/favicon.ico" sizes="32x32">
-		<link rel="icon" href="/icon.svg" type="image/svg+xml">
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta
-			name="description"
-			content="A simple web app to manage bookmarks with tags."
-		/>
-		<title>TagBookmarks</title>
+		<link rel="icon" href="/favicon.ico" sizes="32x32" />
+		<link rel="icon" href="/icon.svg" type="image/svg+xml" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="description" content="A simple web app to manage bookmarks with tags." />
+		<title>Notes</title>
 		<script>
 			(function () {
 				let colorScheme = localStorage.getItem('colorScheme');
 				if (colorScheme !== 'dark' && colorScheme !== 'light') {
-					colorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+					colorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches
+						? 'dark'
+						: 'light';
 				}
 				document.documentElement.setAttribute('data-color-scheme', colorScheme);
 			})();
 		</script>
-		<script type="module" crossorigin src="/assets/index-DPrYrujP.js"></script>
-		<link rel="stylesheet" crossorigin href="/assets/index-C7rMRyr1.css">
+		<script type="module" crossorigin src="/assets/index-DLOsKu_e.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index-W29clQOI.css">
 	<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 	<body>
 		<div id="app"></div>
