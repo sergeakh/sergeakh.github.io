@@ -20,9 +20,49 @@
 				}
 				document.documentElement.setAttribute('data-color-scheme', colorScheme);
 			})();
+
+			(function () {
+				let isUnsupported = false;
+
+				try {
+					// Проверка поддержки nullish coalescing (??) и optional chaining (?.)
+					eval('const obj = {}; const result = obj?.prop ?? "default";');
+					// Проверка поддержки fetch и Promise
+					if (!('fetch' in window) || !('Promise' in window)) {
+						throw new Error('fetch or Promise not supported');
+					}
+				} catch {
+					isUnsupported = true;
+				}
+
+				window.isUnsupportedBrowser = isUnsupported;
+
+				if (isUnsupported) {
+					document.body.innerHTML = `
+					<style>
+						html, body {
+							margin: 0;
+							padding: 0;
+							box-sizing: border-box;
+							height: 100%;
+							display: flex;
+							flex-direction: column;
+							width: 100%;
+							align-items: center;
+							justify-content: center;
+							font-family: Arial, sans-serif;
+							background-color: #f0f0f0;
+						}
+					</style>
+				<div style="box-sizing: border-box; text-align: center; margin: 20px; width: calc(100% - 40px); max-width: 600px; font-size: 40px; display: flex; align-items: center; justify-content: center; background: #ffffffff; color: #c9c9c9ff; padding: 32px 20px; border-radius: 12px;">
+					Your browser is outdated or does not support.
+				</div>
+				`;
+				}
+			})();
 		</script>
-		<script type="module" crossorigin src="/assets/index-F4UA7Zx-.js"></script>
-		<link rel="stylesheet" crossorigin href="/assets/index-BCEMX6-O.css">
+		<script type="module" crossorigin src="/assets/index-BMmQJNiY.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index-SNi4Lm5l.css">
 	<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 	<body>
 		<div id="app"></div>
