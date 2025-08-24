@@ -1,1 +1,0 @@
-const a=async()=>{const e=await fetch("/api/auth/challenge",{method:"post"});if(e.status!==200)throw new Error("Failed to get auth challenge");return(await e.json()).challenge},s=async()=>{const e=await fetch("/api/auth/serverKey",{method:"post"});if(e.status!==200)throw new Error("Failed to get server key");return(await e.json()).serverKey};export{s as a,a as g};
