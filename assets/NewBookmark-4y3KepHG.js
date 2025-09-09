@@ -1,1 +1,0 @@
-import{p as n,S as d,k,a6 as f,O as l}from"./index-C6ph0cVZ.js";import{B as u}from"./BookmarkForm-peZVLIp2.js";import"./Input-C4nAY136.js";function B(a,o){n(o,!1);const t=()=>{l()},s=({title:m,url:r,description:i,tags:p})=>{f({title:m,url:r,description:i,tags:p.map(e=>e.trim())}),t()};d(),u(a,{onSubmit:s}),k()}export{B as default};
