@@ -1,1 +1,0 @@
-import{p as r,S as d,k as f,a6 as l,O as u}from"./index-DsliZToH.js";import{N}from"./NoteForm-D2WSEXr1.js";import"./Input-J5R-YU1b.js";function S(a,o){r(o,!1);const t=()=>{u()},s=({title:e,url:m,description:i,tags:p})=>{l({title:e,url:m,description:i,tags:p.map(n=>n.trim())}),t()};d(),N(a,{onSubmit:s}),f()}export{S as default};
