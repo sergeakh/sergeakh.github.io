@@ -1,1 +1,0 @@
-import{p as r,S as d,k as f,a6 as l,O as u}from"./index-CjUy5aUj.js";import{N}from"./NoteForm-C8gt9k0Z.js";import"./Input-TSOni8QI.js";function S(a,o){r(o,!1);const t=()=>{u()},s=({name:e,url:m,text:i,tags:p})=>{l({name:e,url:m,text:i,tags:p.map(n=>n.trim())}),t()};d(),N(a,{onSubmit:s}),f()}export{S as default};
