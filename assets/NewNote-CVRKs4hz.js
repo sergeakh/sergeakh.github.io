@@ -1,1 +1,0 @@
-import{p as n,h as p,x as u,k as f,S as l,a7 as h,O as N}from"./index-0Z-mCJUL.js";import{N as b}from"./NoteForm-BXqHggWS.js";import"./Input-BnOyJZfe.js";function x(t,a){n(a,!0);const e=()=>{N()};let o=u(()=>l(""));b(t,{get draft(){return p(o)},onSubmit:({name:r,url:s,text:d,tags:m})=>{h({name:r,url:s,text:d,tags:m.map(i=>i.trim())}),e()}}),f()}export{x as default};
