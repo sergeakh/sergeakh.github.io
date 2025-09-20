@@ -1,0 +1,1 @@
+async function a(){const t=await fetch("/api/challenge",{method:"post"});if(t.status!==200)throw new Error;return(await t.json()).challenge}async function s(){const t=await fetch("/api/serverKey",{method:"post"});if(t.status!==200)throw new Error;return(await t.json()).serverKey}export{s as a,a as g};
