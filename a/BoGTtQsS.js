@@ -1,1 +1,0 @@
-import{p,C as f,z as u,q as l,r as N,m as g,g as b,y as h,d as v,n as y,T as C}from"./Cl9iL3yU.js";import{N as x}from"./CaICFzaA.js";import"./f-UlyS3P.js";function A(s,o){p(o,!0);const{isInitedNotes:a}=f(),{back:n}=u(),r=h(a),i=()=>{n()},d=async()=>{await C(),i()};var e=l(),c=N(e);{var m=t=>{x(t,{onSubmit:d})};g(c,t=>{b(r)&&t(m)})}v(s,e),y()}export{A as default};
