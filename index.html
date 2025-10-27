@@ -19,6 +19,10 @@
 						: 'light';
 				}
 				document.documentElement.setAttribute('data-color-scheme', colorScheme);
+				const colorThemeTag = document.createElement('meta');
+				colorThemeTag.name = 'theme-color';
+				colorThemeTag.content = colorScheme === 'dark' ? '#afafaf' : '#000';
+				document.head.appendChild(colorThemeTag);
 			})();
 
 			(function () {
@@ -66,7 +70,7 @@
 				}
 			})();
 		</script>
-		<script type="module" crossorigin src="/a/BsR7dB8h.js"></script>
+		<script type="module" crossorigin src="/a/ukDb-Ydf.js"></script>
 		<link rel="stylesheet" crossorigin href="/a/DgRuR1Zx.css">
 	<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 	<body>
