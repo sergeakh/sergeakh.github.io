@@ -16,33 +16,6 @@
 		<title>NoteTags</title>
 		<script>
 			(function () {
-				let colorScheme = localStorage.getItem('colorScheme');
-				if (colorScheme !== 'dark' && colorScheme !== 'light') {
-					colorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches
-						? 'dark'
-						: 'light';
-				}
-				document.documentElement.setAttribute('data-color-scheme', colorScheme);
-				const colorThemeTag = document.createElement('meta');
-				colorThemeTag.name = 'theme-color';
-				colorThemeTag.content = colorScheme === 'dark' ? '#202020' : '#fff';
-				document.head.appendChild(colorThemeTag);
-
-				const appleMobileWebAppStatusBarStyle = document.createElement('meta');
-				appleMobileWebAppStatusBarStyle.name = 'apple-mobile-web-app-status-bar-style';
-				appleMobileWebAppStatusBarStyle.content =
-					colorScheme === 'dark' ? 'black' : 'black-translucent';
-				document.head.appendChild(appleMobileWebAppStatusBarStyle);
-			})();
-
-			(function () {
-				window.addEventListener('beforeinstallprompt', (event) => {
-					event.preventDefault();
-					window.installPrompt = event;
-				});
-			})();
-
-			(function () {
 				let isUnsupported = false;
 
 				try {
@@ -58,30 +31,30 @@
 
 				if (isUnsupported) {
 					document.body.innerHTML = `
-					<style>
-						html, body {
-							margin: 0;
-							padding: 0;
-							box-sizing: border-box;
-							height: 100%;
-							display: flex;
-							flex-direction: column;
-							width: 100%;
-							align-items: center;
-							justify-content: center;
-							font-family: Arial, sans-serif;
-							background-color: #f0f0f0;
-						}
-					</style>
-				<div style="box-sizing: border-box; text-align: center; margin: 20px; width: calc(100% - 40px); max-width: 600px; font-size: 40px; display: flex; align-items: center; justify-content: center; background: #ffffffff; color: #c9c9c9ff; padding: 32px 20px; border-radius: 12px;">
-					Your browser is outdated or does not support.
-				</div>
-				`;
+								<style>
+									html, body {
+										margin: 0;
+										padding: 0;
+										box-sizing: border-box;
+										height: 100%;
+										display: flex;
+										flex-direction: column;
+										width: 100%;
+										align-items: center;
+										justify-content: center;
+										font-family: Arial, sans-serif;
+										background-color: #f0f0f0;
+									}
+								</style>
+							<div style="box-sizing: border-box; text-align: center; margin: 20px; width: calc(100% - 40px); max-width: 600px; font-size: 40px; display: flex; align-items: center; justify-content: center; background: #ffffffff; color: #c9c9c9ff; padding: 32px 20px; border-radius: 12px;">
+								Your browser is outdated or does not support.
+							</div>
+							`;
 				}
 			})();
 		</script>
-		<script type="module" crossorigin src="/a/aynr7J66f.js"></script>
-		<link rel="stylesheet" crossorigin href="/a/aDifVnymk.css">
+		<script type="module" crossorigin src="/a/aCPXQnHb8.js"></script>
+		<link rel="stylesheet" crossorigin href="/a/aBlzKtElI.css">
 	<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 	<body>
 		<div id="app"></div>
