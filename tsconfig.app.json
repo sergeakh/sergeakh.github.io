@@ -1,4 +1,0 @@
-{
-	"extends": "p1-front-configs/tsconfig.app.json",
-	"include": ["src/**/*.ts", "src/**/*.svelte"]
-}

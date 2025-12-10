@@ -1,4 +1,0 @@
-{
-	"extends": "p1-front-configs/tsconfig.node.json",
-	"include": ["vite.config.ts"]
-}
