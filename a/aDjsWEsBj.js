@@ -1,0 +1,1 @@
+import{p as i,E as r,y as p,g as f,a as c,s as d,o as u,f as l,e as v,h as g}from"./aBhExeEdR.js";var m=l("<div>Hello</div>");function I(e,s){i(s,!0);const o=r();let t=c("preInit");p(()=>{f(t)==="preInit"&&o.isInitedNotes()&&d(t,"init")});const a=async()=>{};u(()=>{a()});var n=m();v(e,n),g()}export{I as default};
