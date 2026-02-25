@@ -1,0 +1,1 @@
+import{p as i,E as r,z as p,g as f,a as d,s as c,o as u,f as l,e as v,h as g}from"./aDAOyCQCI.js";var m=l("<div>Hello</div>");function h(t,s){i(s,!0);const o=r();let e=d("preInit");p(()=>{f(e)==="preInit"&&o.isInitedNotes()&&c(e,"init")});const a=async()=>{};u(()=>{a()});var n=m();v(t,n),g()}function S(t){h(t,{})}export{S as default};
