@@ -1,0 +1,1 @@
+var e=e=>{let[t=``,...n]=e.replace(`,`,`.`).replace(/[^\d.]/g,``).split(`.`);return n.length===0?t:`${t}.${n.join(``)}`};export{e as t};
