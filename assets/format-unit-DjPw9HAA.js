@@ -1,1 +1,0 @@
-var e=(e,t)=>`${e}${t}`,t=(t,n,r=``)=>{let i=Math.round(t),a=Math.round(n);return r?`${e(i,r)}/${e(a,r)}`:`${i}/${a}`};export{e as n,t};

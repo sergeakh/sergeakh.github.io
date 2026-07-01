@@ -1,1 +1,0 @@
-import{Ot as e}from"./i18n-DbYlLHQ8.js";e();
