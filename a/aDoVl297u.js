@@ -1,0 +1,1 @@
+import{i as e}from"./aC-mLv1tw.js";async function t(){let t=await fetch(`/api/get-challenge`,{method:`post`});if(t.status!==200)throw new e(t.status);return(await t.json()).challenge}async function n(){let t=await fetch(`/api/get-server-key`,{method:`post`});if(t.status!==200)throw new e(t.status);return(await t.json()).serverKey}export{n,t};

@@ -1,1 +1,0 @@
-import{O as e}from"./aBI6_jPf8.js";async function t(){let t=await fetch(`undefined/api/delete-session`,{method:`POST`,credentials:`include`});if(t.status!==200)throw new e(t.status)}export{t};
