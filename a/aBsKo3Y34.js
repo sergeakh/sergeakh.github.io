@@ -1,0 +1,1 @@
+import{Ot as e}from"./a18G5w27l.js";e();
