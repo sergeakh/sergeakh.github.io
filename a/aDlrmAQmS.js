@@ -1,0 +1,1 @@
+import{r as e}from"./aBmn_3iwa.js";async function t(){let t=await fetch(`/api/delete-session`,{method:`POST`,credentials:`include`});if(t.status!==200)throw new e(t.status)}export{t};

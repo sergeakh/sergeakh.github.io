@@ -1,1 +1,0 @@
-import{i as e}from"./aC-mLv1tw.js";async function t(){let t=await fetch(`/api/delete-session`,{method:`POST`,credentials:`include`});if(t.status!==200)throw new e(t.status)}export{t};

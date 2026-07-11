@@ -1,0 +1,1 @@
+var e=e=>{let[t=``,...n]=e.replace(`,`,`.`).replace(/[^\d.]/g,``).split(`.`);return n.length===0?t:`${t}.${n.join(``)}`},t=async e=>{let t=Date.now();await e();let n=600-(Date.now()-t);n>0&&await new Promise(e=>{setTimeout(e,n)})};export{e as n,t};
